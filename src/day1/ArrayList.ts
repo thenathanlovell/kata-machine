@@ -1,9 +1,10 @@
 export default class ArrayList<T> {
     public length: number;
-
+    public array: [];
     
 
     constructor() {
+        this.array = []
     }
 
     prepend(item: T): void {
